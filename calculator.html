@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+      margin: 0px;
+      padding: 0px;
+      background-color: papayawhip;
+      }
+      .app-title{
+        text-align: center;
+        color: black;
+      }
+      .calculator-container{
+        background-color: #9494b1;
+        border-radius: 15px;
+        height: 380px;
+        width: 310px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+      }
+     .brand-name{
+        text-align: right;
+        margin-right: 40px;
+        font-weight: bold;
+        color: white;
+     }
+     .calculator-screen{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        font-size: 50px;
+        border-radius: 5px;
+        background-color: #9fe09f;
+        
+     }
+     .button-container{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right:20px ;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+     }
+     .btn-special{
+      background-color: aqua;
+     }
+     
+     .btn{
+      font-size: 40px;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      border-radius: 5px;
+     }
+     .btn:hover{
+      border-radius: 10px;
+      transition: 0.4s;
+      cursor: pointer;
+      box-shadow: 0 0 10px #fff;
+     }
+    
+    </style>
+</head>
+<body>
+    <h1 class="app-title">Calculator</h1>
+
+    <div class="calculator-container">
+        <p class="brand-name">RTC</p>
+        <input type="text" class="calculator-screen">
+        <div class="button-container">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn btn-special">+</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn btn-special">-</button>
+
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn btn-special">X</button>
+
+        <button class="btn btn-special">.</button>
+        <button class="btn">0</button>
+        <button class="btn btn-special">=</button>
+        <button class="btn btn-special">/</button>
+        </div>
+    </div>
+
+</body>
+</html>
